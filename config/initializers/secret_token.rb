@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-Carauction::Application.config.secret_key_base = 'fe6459608fc33237d15ae9093c2656747d3ba2c26104a4c72423f7e065579f4375ac93f7ad7a9354395c256915f7713f5c5dd747000b1bd44339cc2aa39181cb'
+Medicalcrm::Application.config.secret_key_base = 'fe6459608fc33237d15ae9093c2656747d3ba2c26104a4c72423f7e065579f4375ac93f7ad7a9354395c256915f7713f5c5dd747000b1bd44339cc2aa39181cb'

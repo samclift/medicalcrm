@@ -1,4 +1,4 @@
-Carauction::Application.routes.draw do
+Medicalcrm::Application.routes.draw do
   resources :items
 
   devise_for :users
