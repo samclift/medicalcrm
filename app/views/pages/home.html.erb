@@ -1,0 +1,13 @@
+<% if user_signed_in? %>
+	<h1>You're logged in!</h1>
+<% else %>
+
+<div class="hero-unit">
+	<h1>Carauction site</h1>
+	<p>Sign up to sell your car, or just start browsing!</p>
+
+	<%= link_to "Sign up now!", new_user_registration_path, class: "btn btn-primary btn-large" %>
+
+</div>
+
+<% end %>

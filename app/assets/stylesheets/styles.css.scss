@@ -1,0 +1,29 @@
+/* This is how you change the font if you want to. Comment this out if you want the default Bootstrap font types. */
+$baseFontFamily: Oxygen;
+@import url(http://fonts.googleapis.com/css?family=Oxygen);
+
+/* This changes the background colour on the header */
+$navbarBackgroundHighlight: white;
+$navbarBackground: white;
+
+/* This changes the colour of the btn-primary class from bootstrap */
+$btnPrimaryBackground: gray;
+
+@import 'bootstrap';
+
+body { padding-top: 60px; }
+
+@import 'bootstrap-responsive';
+
+/* removes Bootstrap's default header shadow */
+.navbar-inner {
+		@include box-shadow(none !important);
+		border: 0;
+}
+
+.footer { margin-top: 50px;
+					color: $grayLight;
+					a {
+							color: $gray;
+						}
+				}

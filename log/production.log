@@ -1,0 +1,59 @@
+I, [2013-11-06T08:01:06.569685 #67037]  INFO -- : Started GET "/users/sign_up" for 127.0.0.1 at 2013-11-06 08:01:06 +1300
+I, [2013-11-06T08:01:06.576303 #67037]  INFO -- : Processing by Devise::RegistrationsController#new as HTML
+I, [2013-11-06T08:01:06.680047 #67037]  INFO -- :   Rendered devise/registrations/new.html.erb within layouts/application (77.9ms)
+I, [2013-11-06T08:01:06.680258 #67037]  INFO -- : Completed 500 Internal Server Error in 104ms
+F, [2013-11-06T08:01:06.682318 #67037] FATAL -- : 
+ActionView::Template::Error (undefined method `country' for #<User:0x007f8e13898110>):
+    11:     <%= f.input :address1, label: "Address" %>
+    12:     <%= f.input :address2, label: "Address" %>
+    13:     <%= f.input :region, default: "Auckland", collection: [ "Auckland", "Wellington", "Christchurch" ] %>
+    14:     <%= f.input :country %>
+    15:     <%= f.input :suburb %>
+    16:     <%= f.input :postcode %>
+    17:     <%= f.input :home_phone, as: 'tel' %>
+  app/views/devise/registrations/new.html.erb:14:in `block in _app_views_devise_registrations_new_html_erb__4329090794202104300_70124090395460'
+  app/views/devise/registrations/new.html.erb:3:in `_app_views_devise_registrations_new_html_erb__4329090794202104300_70124090395460'
+
+
+I, [2013-11-06T08:01:10.206620 #67037]  INFO -- : Started GET "/" for 127.0.0.1 at 2013-11-06 08:01:10 +1300
+I, [2013-11-06T08:01:10.208810 #67037]  INFO -- : Processing by PagesController#home as HTML
+I, [2013-11-06T08:01:10.212796 #67037]  INFO -- :   Rendered pages/home.html.erb within layouts/application (1.2ms)
+I, [2013-11-06T08:01:15.458049 #67037]  INFO -- :   Rendered layouts/_header.html.erb (1.3ms)
+I, [2013-11-06T08:01:15.459106 #67037]  INFO -- :   Rendered layouts/_footer.html.erb (0.4ms)
+I, [2013-11-06T08:01:15.459479 #67037]  INFO -- : Completed 200 OK in 5251ms (Views: 5249.5ms | ActiveRecord: 0.0ms)
+I, [2013-11-06T08:01:15.484414 #67037]  INFO -- : Started GET "/assets/application-a245e775d1d5ae7a50cac881c9653192.css" for 127.0.0.1 at 2013-11-06 08:01:15 +1300
+I, [2013-11-06T08:01:15.504483 #67037]  INFO -- : Started GET "/assets/application-9c6102ce0a0b5051990a99c7e32ea6a0.js" for 127.0.0.1 at 2013-11-06 08:01:15 +1300
+I, [2013-11-06T08:01:18.181623 #67037]  INFO -- : Started GET "/users/sign_up" for 127.0.0.1 at 2013-11-06 08:01:18 +1300
+I, [2013-11-06T08:01:18.184086 #67037]  INFO -- : Processing by Devise::RegistrationsController#new as HTML
+I, [2013-11-06T08:01:18.195082 #67037]  INFO -- :   Rendered devise/registrations/new.html.erb within layouts/application (9.1ms)
+I, [2013-11-06T08:01:18.195265 #67037]  INFO -- : Completed 500 Internal Server Error in 11ms
+F, [2013-11-06T08:01:18.197189 #67037] FATAL -- : 
+ActionView::Template::Error (undefined method `country' for #<User:0x007f8e166f0828>):
+    11:     <%= f.input :address1, label: "Address" %>
+    12:     <%= f.input :address2, label: "Address" %>
+    13:     <%= f.input :region, default: "Auckland", collection: [ "Auckland", "Wellington", "Christchurch" ] %>
+    14:     <%= f.input :country %>
+    15:     <%= f.input :suburb %>
+    16:     <%= f.input :postcode %>
+    17:     <%= f.input :home_phone, as: 'tel' %>
+  app/views/devise/registrations/new.html.erb:14:in `block in _app_views_devise_registrations_new_html_erb__4329090794202104300_70124090395460'
+  app/views/devise/registrations/new.html.erb:3:in `_app_views_devise_registrations_new_html_erb__4329090794202104300_70124090395460'
+
+
+I, [2013-11-06T08:01:18.201819 #67037]  INFO -- : Started GET "/users/sign_up" for 127.0.0.1 at 2013-11-06 08:01:18 +1300
+I, [2013-11-06T08:01:18.202619 #67037]  INFO -- : Processing by Devise::RegistrationsController#new as HTML
+I, [2013-11-06T08:01:18.212417 #67037]  INFO -- :   Rendered devise/registrations/new.html.erb within layouts/application (8.7ms)
+I, [2013-11-06T08:01:18.212561 #67037]  INFO -- : Completed 500 Internal Server Error in 10ms
+F, [2013-11-06T08:01:18.214428 #67037] FATAL -- : 
+ActionView::Template::Error (undefined method `country' for #<User:0x007f8e1782b318>):
+    11:     <%= f.input :address1, label: "Address" %>
+    12:     <%= f.input :address2, label: "Address" %>
+    13:     <%= f.input :region, default: "Auckland", collection: [ "Auckland", "Wellington", "Christchurch" ] %>
+    14:     <%= f.input :country %>
+    15:     <%= f.input :suburb %>
+    16:     <%= f.input :postcode %>
+    17:     <%= f.input :home_phone, as: 'tel' %>
+  app/views/devise/registrations/new.html.erb:14:in `block in _app_views_devise_registrations_new_html_erb__4329090794202104300_70124090395460'
+  app/views/devise/registrations/new.html.erb:3:in `_app_views_devise_registrations_new_html_erb__4329090794202104300_70124090395460'
+
+
